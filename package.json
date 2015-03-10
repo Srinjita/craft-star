@@ -1,0 +1,22 @@
+{
+  "name": "craft-star",
+  "version": "1.0.0",
+  "description": "craft star",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Srinjita/craft-star.git"
+  },
+  "author": "Srinjita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Srinjita/craft-star/issues"
+  },
+  "homepage": "https://github.com/Srinjita/craft-star",
+  "keywords": [
+    "craftml"
+  ]
+}

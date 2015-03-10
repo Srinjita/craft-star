@@ -1,0 +1,19 @@
+<craft>
+<parameter name="sides" type="int" default="3"/>
+<parameter name="radius" type="int" default="5"/>
+<parameter name="height" type="int" default="2"/>
+<script type="text/openjscad">
+ //Main function
+function main()
+{
+ var sides=params.sides;
+ var radius=params.radius;
+ var height=params.height;
+ //building the star
+ var t1= cylinder({r: radius,h:height, fn: sides });
+ var t2=cylinder({r: radius,h:height, fn: sides});
+ return union(t1,t2.rotateZ(180));
+}
+
+ </script>
+</craft>

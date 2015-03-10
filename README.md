@@ -1,0 +1,2 @@
+# craft-star
+Parameterized star

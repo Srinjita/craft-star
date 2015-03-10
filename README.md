@@ -13,7 +13,7 @@ Parameterized star
 
 **height:** To adjust height of star
 
-##Example:
+## Example:
   
     <craft>
     <craft name="star" module="craft-star"/>

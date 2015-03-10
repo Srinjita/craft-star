@@ -13,5 +13,17 @@ Parameterized star
 
 **height:** To adjust height of star
 
+##Example:
+  
+    <craft>
+    <craft name="star" module="craft-star"/>
+    <lineup axis="x" spacing=0.5>
+    <star></star>
+    <star radius="7" sides="5" height="1"></star>
+    <star radius="7" sides="7" height="2"></star>
+    <star radius="9" sides="9"></star>
+    </lineup>
+    </craft>
+
 
 ![example](example.png)
